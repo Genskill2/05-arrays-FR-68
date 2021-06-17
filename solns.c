@@ -55,4 +55,5 @@ int factors(int ftr, int rt[])
   ftr=ftr/i;
    }else 
    i++;
-  }
+  }return j;
+}
