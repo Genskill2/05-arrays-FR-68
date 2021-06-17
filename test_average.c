@@ -13,10 +13,3 @@ int main(void) {
   printf("Average: passed\n");
   }
 
- float average(int str[],int num)
-  {float sum=0,avg=0;
-  for(int i=0;i<num;i++)
-  sum+=str[i];
-  avg=(float)sum/num;
-  return avg;
-  }
