@@ -22,7 +22,7 @@ int max(int str[],int num)
   {float sum=0,avg=0;
   for(int i=0;i<num;i++)
   sum+=str[i];
-  avg=(float)sum/num;
+  avg=sum/ (float)num;
   return avg;
   }
 
